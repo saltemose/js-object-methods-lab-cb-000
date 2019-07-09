@@ -6,4 +6,7 @@ class President {
     this.yearsInOffice = yearsInOffice;
     this.homeState = homeState;
   }
+  veto() {
+    returns "NO!"
+  }
 }
