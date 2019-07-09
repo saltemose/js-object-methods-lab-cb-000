@@ -7,7 +7,7 @@ class President {
     this.homeState = homeState;
   }
   veto() {
-    console.log("NO!");
+    return "NO!";
   };
 
   passBill() {
