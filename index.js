@@ -23,6 +23,6 @@ class President {
   };
 
   sayHi() {
-    return `Hi, my name is ${name}. I am from ${homestate}.  I represent the ${politicalParty}s, and was in office ${yearsInOffice}.`
+    return `Hi, my name is ${name}. I am from ${homeState}.  I represent the ${politicalParty}s, and was in office ${yearsInOffice}.`
   }
 }
