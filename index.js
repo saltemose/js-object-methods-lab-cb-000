@@ -7,6 +7,22 @@ class President {
     this.homeState = homeState;
   }
   veto() {
-    returns "NO!"
+    console.log("NO!");
+  };
+
+  passBill() {
+    console.log("You can do that!");
+  };
+
+  doCharity() {
+    console.log("I like to help people.")
+  };
+
+  conductPressInterview() {
+    console.log("I am proud to be an American.")
+  };
+
+  sayHi() {
+    console.log(`Hi, my name is ${name}. I am from ${homestate}.  I represent the ${politicalParty}s, and was in office ${yearsInOffice}.`)
   }
 }
